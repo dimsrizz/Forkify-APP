@@ -1,0 +1,20 @@
+{
+  "name": "forkify-app",
+  "version": "1.0.0",
+  "description": "",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fractional": "^1.0.0",
+    "parcel": "^2.2.1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.2.1"
+  }
+}
